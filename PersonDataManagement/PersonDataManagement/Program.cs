@@ -25,6 +25,8 @@ class program
         op.RetriveTopRecordsOfAge(list);
         Console.WriteLine("RetriveAllRecordsOfAge (20 to 30) :");
         op.RetriveAllRecordsOfAge(list);
+        Console.WriteLine("RetriveAverageAge :");
+        op.RetriveAverageAge(list);
     }
 }
 
